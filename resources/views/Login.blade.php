@@ -23,7 +23,6 @@
                 <form action="/login" method="post">
                     @csrf
                     <img class="mb-4" src="../assets/images/cta-banner.png" alt="" width="72" height="57">
-
                     <div class="form-floating">
                         <input type="email" name="email" class="form-control" @error('email') is-invalid @enderror
                             id="email" placeholder="name@example.com" autofocus required value="{{ old('email') }}">
