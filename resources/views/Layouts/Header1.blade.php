@@ -4,6 +4,7 @@
 <html lang="en">
 
 <head>
+<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,10 +47,52 @@
     - preload images
   -->
     <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+=======
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    - primary meta tag
+  -->
+  <title>Makan - Hight Quality Pet Food</title>
+  <meta name="title" content="Kitter - Hight Quality Pet Food">
+  <meta name="description" content="This is an eCommerce html template made by codewithsadee">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--
+    - custom css link
+  -->
+  {{-- <link rel="stylesheet" href="./assets/css/style.css"> --}}
+
+  {{-- css --}}
+<link rel="stylesheet" href="./assets/css/style1.css">
+
+{{-- Bootstrap --}}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+>>>>>>> 5579e37ecd7cf7acb03ed0853cb32ba47c757e87
 
 </head>
 
 <body class="mt-5" id="top">
+<<<<<<< HEAD
     <div class="row">
         <div class="col-md-5 ">
             <nav
@@ -71,6 +114,26 @@
   -->
 
     {{-- <header class="header" data-header>
+=======
+<div class="row">
+    <div class="col-md-5">
+        <nav class="navbar navbar-expand-lg shadow-sm navbar-dark bg-primary fixed-top ">
+            <div class="container-fluid-nav justify text-center">
+              <a class="navbar-brand" href="/">Makan</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+
+    </div>
+</div>
+  <!--
+    - #HEADER
+  -->
+
+  {{-- <header class="header" data-header>
+>>>>>>> 5579e37ecd7cf7acb03ed0853cb32ba47c757e87
     <div class="container">
 
       <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
@@ -78,7 +141,11 @@
         <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
       </button> --}}
 
+<<<<<<< HEAD
     {{-- <a href="/" class="logo">Makan</a>
+=======
+      {{-- <a href="/" class="logo">Makan</a>
+>>>>>>> 5579e37ecd7cf7acb03ed0853cb32ba47c757e87
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
@@ -175,11 +242,19 @@
 
 
 
+<<<<<<< HEAD
     <!--
    - #FOOTER
  -->
 
     {{-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+=======
+<!--
+   - #FOOTER
+ -->
+
+{{-- <footer class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+>>>>>>> 5579e37ecd7cf7acb03ed0853cb32ba47c757e87
 
     <div class="footer-top section">
         <div class="container">
@@ -366,5 +441,8 @@
 
 
 </body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5579e37ecd7cf7acb03ed0853cb32ba47c757e87
 </html>

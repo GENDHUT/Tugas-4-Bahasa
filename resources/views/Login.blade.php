@@ -20,9 +20,15 @@
 
 
         <main class="form-signin">
+<<<<<<< HEAD
             <h1 class="h3 mb-3 fw-normal text-center">Please lOG-in</h1>
     <form action="/login" method="post">
     @csrf
+=======
+            @csrf
+            <h1 class="h3 mb-3 fw-normal text-center">Please lOG-in</h1>
+    <form action="/login" method="post">
+>>>>>>> 5579e37ecd7cf7acb03ed0853cb32ba47c757e87
       <img class="mb-4" src="../assets/images/cta-banner.png" alt="" width="72" height="57">
 
       <div class="form-floating">
