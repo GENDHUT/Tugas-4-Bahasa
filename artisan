@@ -15,15 +15,13 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
-<<<<<<< HEAD
 require __DIR__ . '/vendor/autoload.php';
 
 $app = require_once __DIR__ . '/bootstrap/app.php';
-=======
-require __DIR__.'/vendor/autoload.php';
 
-$app = require_once __DIR__.'/bootstrap/app.php';
->>>>>>> 5579e37ecd7cf7acb03ed0853cb32ba47c757e87
+require __DIR__ . '/vendor/autoload.php';
+
+$app = require_once __DIR__ . '/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
