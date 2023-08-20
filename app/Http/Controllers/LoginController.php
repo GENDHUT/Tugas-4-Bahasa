@@ -22,9 +22,17 @@ class LoginController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->intended('/home');
+            return redirect()->intended('/');
         }
 
         return back()->with('LoginError', 'Login gagal');
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        request()->session()->invalidate();
+        request()->session()->regenerateToken();
+        return redirect('/');
     }
 }
